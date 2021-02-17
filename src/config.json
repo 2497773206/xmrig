@@ -18,7 +18,7 @@
         "init": -1,
         "init-avx2": -1,
         "mode": "auto",
-        "1gb-pages": false,
+        "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": true,
         "cache_qos": false,
@@ -28,7 +28,7 @@
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
         "priority": null,
         "memory-pool": false,
@@ -57,15 +57,15 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 1,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "cn/r",
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "url": "sumo.ss.dxpool.com:9901",
+            "user": "Sumoo3Pir1qeMZ1gSLfFtK2LrjyZi3ecU1PtQHibjH77gALNCoW3vBM1ZmYrFSdj8va2Ho5rygRfyf1PcfnrbnFpJMw9AZydLvs",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
